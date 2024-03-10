@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primex</title>
+    <link rel="shortcut icon" href="./img/iconka.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo">
+            <img src="./img/logo.png" alt="logo" width="160px" />
+          </div>
+          <div class="link">
+            <ul>
+              <li><a href="#">Домой</a></li>
+              <li><a href="#">О нас</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="connect">
+            <button class="connect-btn">Связаться с нами</button>
+          </div>
+          <div class="burger">
+            <button class="burger-btn">
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="modal">
+      <div class="modal-wrapper">
+        <div class="x">&#10006;</div>
+        <form class="modal-form">
+          <h2 class="modal-title">Осавьте свои данные</h2>
+          <input class="modal-input" placeholder="Введите имя" type="text" />
+          <input
+            class="modal-input"
+            placeholder="Введите телефон"
+            type="number"
+          />
+          <button class="modal-btn" type="submit">Связаться</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

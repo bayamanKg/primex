@@ -1,0 +1,38 @@
+@media (max-width: 770px) {
+  .logo img {
+    width: 120px;
+    transform: translateY(-5px);
+  }
+  .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100vh;
+    background-color: gold;
+    z-index: 1;
+    padding: 40px;
+    transform: translateX(-100%);
+    transition: 400ms;
+  }
+  .link-open {
+    transform: translateX(0px);
+  }
+  .link ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .link ul li a {
+    font-size: 20px;
+  }
+  .connect-btn {
+    padding: 10px 13px;
+    font-size: 13px;
+  }
+  .burger {
+    display: block;
+  }
+  .modal-wrapper {
+    padding: 35px;
+  }
+}
